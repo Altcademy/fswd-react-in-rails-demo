@@ -22,7 +22,7 @@ const Layout = (props) => {
         {props.children}
       </div>
       <footer className="p-3 bg-light">
-        <div>
+        <div className="container">
           <span className="me-3 text-secondary">Built by <a href="https://www.altcademy.com" target="_blank" rel="noopener noreferrer">Altcademy</a> with ☕ and 💜</span>
         </div>
       </footer>
